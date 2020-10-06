@@ -1,0 +1,41 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[33,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="tutorial" #mandatory
+
+version="1.16.2-1.0.0" #mandatory
+
+displayName="Tutorial Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="http://example.com/" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="buradan bu modu yapmama vesile olan technovision kanalına teşekkür ederim ayrıca talhanın amına koyayım rüyalarıma girdiği için" #optional
+
+authors="İslam Karacar" #optional
+
+description= ''' rüyalarıma giren bir şerefsiz için minecraft modu bug çıkarsa ara : 0536 437 24 77 '''
+
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[33,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.2]"
+    ordering="NONE"
+    side="BOTH"
